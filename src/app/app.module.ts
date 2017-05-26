@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+//import { Angulartics2GoogleAnalytics,Angulartics2Module } from 'angulartics2';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule
+  //  Angulartics2Module.forRoot([Angulartics2GoogleAnalytics])
   ],
   providers: [],
   bootstrap: [AppComponent]
